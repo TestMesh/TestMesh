@@ -1,5 +1,7 @@
 #!/bin/bash
 
+chmod +x sandbox
+
 cp sandbox /usr/local/bin/sandbox
 
 declare -a dep_list=('testmesh/sandbox-build' 'testmesh/proxy' 'testmesh/compose' 'testmesh/compose-agent' 'testmesh/plugin-gen-mockserver' 'testmesh/plugin-upload-center' 'testmesh/plugin-gen-test-h5report' 'testmesh/plugin-testrunner-server' 'testmesh/plugin-testrunner' 'testmesh/collector' 'testmesh/plugin-assemble' 'testmesh/plugin-testrunner-ui')
